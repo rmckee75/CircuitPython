@@ -30,8 +30,8 @@ while True:
             green = int(round(greenfloat))
         elif (n < 25):
             green = 0
-        #print (sonar.distance)
-        print (red, green, blue)
+        print (sonar.distance)
+        #print (red, green, blue)
         color = (red, green, blue)
         dot.fill (color)
     except:

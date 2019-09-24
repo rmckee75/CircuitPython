@@ -1,8 +1,9 @@
-# Write your code here :-)
 import board
+# imports breadboard
 import pulseio
+# imports PWM
 import time
-# most functions must be imported from modules before they can be used
+# most functions must be imported from modules before they can be used (even breadboard and time)
 led = pulseio.PWMOut(board.D4)
 # the LED is attached to digital pin 4 (a PWM pin)
 i = 0

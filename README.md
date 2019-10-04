@@ -47,4 +47,4 @@ Create a new module that allows you to call functions to turn RGB LEDs certain c
 ### Wiring
 ![alt text](rgbwiring.PNG)
 ### Lessons & Methods
-In this assignment I learned how to create an object (called by "self"), within a class, within a module.  I learned how RGB LEDs have three different pins (red, green, and blue) that can be turned on or off at varying levels of brightness, allowing ti to glow a wide variety of colors.
+In this assignment I learned how to create an object (called by "self"), within a class, within a module.  I learned how RGB LEDs have three different pins (red, green, and blue) that can be turned on or off at varying levels of brightness, allowing it to glow a wide variety of colors.

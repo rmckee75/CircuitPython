@@ -40,3 +40,11 @@ The on-board neopixel RGB LED should change color based on the distance read by 
 ![alt text](distancesensorwiring.PNG)
 ### Lessons & Methods
 In this assignment, I used the neopixel LED, which is built into the Metro, and an HCSR04 ultrasonic sensor.  Additionally, I used try and except functions to prevent a program-stopping error when the distance could not be read.  Finally, I used absolute value and integer functions to find the difference between the distance read and the peak distance for a certain color.  If the distance was within 10 cm of the peak color distance, that color would be a non-0 value.
+
+## Classes, Objects, and Modules
+### Objective
+Create a new module that allows you to call functions to turn RGB LEDs certain colors
+### Wiring
+![alt text](rgbwiring.PNG)
+### Lessons & Methods
+In this assignment I learned how to create an object (called by "self"), within a class, within a module.  I learned how RGB LEDs have three different pins (red, green, and blue) that can be turned on or off at varying levels of brightness, allowing ti to glow a wide variety of colors.

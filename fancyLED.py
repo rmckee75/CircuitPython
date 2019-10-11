@@ -69,7 +69,7 @@ class FancyLED(object):
             self.LED1.value = False
             self.LED2.value = False
             self.LED3.value = True
-            #...then just the third...
+            #...then just the third
             time.sleep (0.2)
             c = c + 1 
     

@@ -54,3 +54,11 @@ In this assignment I learned how to create an object (called by "self"), within 
 Learn to use VS Code by printing a message to the serial monitor
 ### Lessons & Methods
 In this assignment, I learned how to create, edit, and open a VS Code file, and then easily upload it to GitHub.
+
+## FancyLED
+### Objective
+Use VS Code, and classes, objects and modules to get two sets of LEDs to blink in various patterns.
+### Wiring
+![alt text](fancyledwiring.PNG)
+### Lessons & Methods
+In this assignment, I continued to learn about classes, objects and modules, I learned how to run a loop "n" times with the "in range" function, and I discovered the "random" module. I used boolean values (True and False) to turn the LEDs on and off.

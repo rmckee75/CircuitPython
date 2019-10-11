@@ -1,4 +1,4 @@
-from pulseio import PWMOut
+from pulseio import PWMOut #pylint: disable-msg=import-error
 # import the PWMOut class from the pulseio module
 class RGB(object):
     def __init__ (self, Rpin, Gpin, Bpin):

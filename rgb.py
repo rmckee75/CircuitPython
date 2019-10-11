@@ -11,7 +11,7 @@ class RGB(object):
         self.Rpin.duty_cycle = 0
         self.Gpin.duty_cycle = 65535
         self.Bpin.duty_cycle = 65535
-        # when there is power, the pins defualt value is on, so turning them to 65535 turns them off, not on
+        # when there is power, the pin's defualt value is on, so turning them to 65535 turns them off, not on
     def blue (self):
         self.Rpin.duty_cycle = 65535
         self.Gpin.duty_cycle = 65535
@@ -35,3 +35,4 @@ class RGB(object):
         self.Rpin.duty_cycle = 0
         self.Gpin.duty_cycle = 0
         self.Bpin.duty_cycle = 65535
+

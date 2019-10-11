@@ -1,6 +1,5 @@
 from digitalio import DigitalInOut, Direction  #pylint: disable-msg=import-error
 import board #pylint: disable-msg=import-error
-# the "#pylint: disable-msg=import-error" message is necessary on all CircuitPython specific modules, like digitalio and board
 import time 
 import random
 # import the random module
@@ -71,6 +70,8 @@ class FancyLED(object):
             self.LED3.value = True
             #...then just the third
             time.sleep (0.2)
+            self.LED3.value = False
+            # turn off last LED
             c = c + 1 
     
     def sparkle (self):

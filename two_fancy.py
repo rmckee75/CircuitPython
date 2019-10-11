@@ -8,5 +8,4 @@ while True:
     fancy1.alternate()
     fancy2.blink()
     fancy1.chase()
-    fancy2.sparkle() 
-    #random blinking
+    fancy2.sparkle()

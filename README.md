@@ -12,7 +12,8 @@ In this assignment, I learned that the easiest way to code an LED is with a PWM 
 
 ## CircuitPython Servo
 ### Objective
-Using capacitive touch, the 180 micro servo should rotate in one direction when touching one wire, and in the other direction when touching the other### Wiring
+Using capacitive touch, the 180 micro servo should rotate in one direction when touching one wire, and in the other direction when touching the other
+### Wiring
 ![alt text](media/servowiring.PNG)
 ### Lessons & Methods
 In this assignment, I learned that PWM and duty cycles can also be used for servos, and that using the touchio module, your metro can tell when you are touching a wire.
